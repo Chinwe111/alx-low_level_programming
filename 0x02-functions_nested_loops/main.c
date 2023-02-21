@@ -3,6 +3,7 @@
 
 int main(void)
 {
-	jack_bauer();
+	typedef int make_iso_compilers_happy;
+
 	return (0);
 }
