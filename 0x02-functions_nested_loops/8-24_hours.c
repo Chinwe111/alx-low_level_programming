@@ -4,6 +4,7 @@
  * jack_bauer - prints every minutes of the day of Jack Bauer
  * @min: is the int in question
  * @hr: is the int in question
+ * Return: Value of every minute of the day
  */
 
 void jack_bauer(void min, hr)
