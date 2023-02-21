@@ -2,10 +2,11 @@
 #include "main.h"
 /**
  * jack_bauer - prints every minutes of the day of Jack Bauer
- *
+ * @min: is the int in question
+ * @hr: is the int in question
  */
 
-void jack_bauer(void)
+void jack_bauer(void min, hr)
 {
 	int min = 0;
 	int hr = 0;
