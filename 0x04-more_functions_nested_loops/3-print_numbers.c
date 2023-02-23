@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_numbers - print 0123456789
- * @c: char to be checked
- * Return: void
+ * print_numbers - print 0-9
+ * return: void
  */
 
 void print_numbers(void)
