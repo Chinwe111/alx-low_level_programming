@@ -9,6 +9,7 @@
 int main(void)
 {
 	unsigned long int i;
+	unsigned long int n;
 
 	n = 612852475143;
 
