@@ -3,7 +3,8 @@
 /**
  * reverse_array - reverse array of integers
  * @a: array
- * @n: integer
+ * @n: int
+ * Return: void
  */
 
 void reverse_array(int *a, int n)
@@ -11,7 +12,7 @@ void reverse_array(int *a, int n)
 	int i;
 	int j;
 
-	for (1 = 0; (i < (n - 1) / 2); i++)
+	for (i = 0; (i < (n - 1) / 2); i++)
 	{
 		j = a[i];
 		a[i] = a[n - 1 - i];
