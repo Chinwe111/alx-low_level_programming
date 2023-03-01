@@ -2,9 +2,9 @@
 #include "main.h"
 /**
  * _strncat - concatenate two strings
- * @src: source of sting
- * @dest: destination of string
- * @n: length of string
+ * @src: source of string
+ * @dest: destination of the string
+ * @n: length of int
  * Return: string dest
  */
 
@@ -17,10 +17,10 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		continue;
 	}
-	for (j = 0 src[j] != '\0' && j < n; j++)
+	for (j = 0; src[j] != '\0' && j < n; j++)
 	{
 		dest[i + j] = src[j];
 	}
-	dest[i + j] '\0';
+	dest[i + j] = '\0';
 	return (dest);
 }
