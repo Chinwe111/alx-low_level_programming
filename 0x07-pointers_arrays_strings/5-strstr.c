@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _strstr - locates a substring
- * @haystack: the longer the string to search
+ * @haystack: the longer string to search
  * @needle: the first occurrence of the substring
  * Return: A pointer of the substring or @NULL if not found
  */
@@ -16,7 +16,7 @@ char *_strstr(char *haystack, char *needle)
 		while (needle[j] && (haystack[i] == needle[0]))
 		{
 			if (haystack[i + j] == needle[j])
-				j++
+				j++;
 			else
 				break;
 		}
