@@ -15,6 +15,6 @@ int check(int a, int b);
 int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int pal_checker(char *s, int i, int j);
-
+int str_checker(char *s1, char *s2, int i, int j);
 
 #endif
