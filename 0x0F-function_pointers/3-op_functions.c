@@ -41,7 +41,7 @@ int op_mul(int a, int b)
  * op_div - returns the division of two numbers
  * @a: first number
  * @b: second number
- * Return: Division of a and b
+ * Return: Quotient of a and b
  */
 
 int op_div(int a, int b)
