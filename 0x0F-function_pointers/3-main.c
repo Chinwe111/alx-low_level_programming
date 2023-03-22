@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	oprt = get_op_func(agrv[2]);
+	oprt = get_op_func(argv[2]);
 
 	if (!oprt)
 	{
