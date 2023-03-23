@@ -15,7 +15,7 @@ void print_all(const char * const format, ...)
 
 	va_start(a_list, format);
 	x = 0;
-	while (format != NULL && format[i] != '\0')
+	while (format != NULL && format[x] != '\0')
 	{
 		switch (format[x])
 		{
@@ -24,7 +24,7 @@ void print_all(const char * const format, ...)
 				flag = 0;
 				break;
 			case 'x':
-				printf("%i", va_arg(a_list, int));
+				printf("%x", va_arg(a_list, int));
 				flag = 0;
 				break;
 			case 'f':
