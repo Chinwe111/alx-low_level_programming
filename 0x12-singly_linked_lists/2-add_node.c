@@ -1,21 +1,22 @@
 #include <stdio.h>
 #include "lists.h"
 #include <stdlib>
+#include <string.h>
 /**
  * _strlen - function that returns the length of a string.
  * @s : s is a character
- * Return: value is i
+ * Return: value is l
  */
 
 int _strlen(const char *s)
 {
-	int i = 0;
+	int l = 0;
 
-	while (s[i] != '\0')
+	while (s[l] != '\0')
 	{
-		i++;
+		l++;
 	}
-	return (i);
+	return (l);
 }
 
 /**
@@ -40,4 +41,3 @@ list_t *add_node(list_t **head, const char *str)
 
 	return (add);
 }
-
