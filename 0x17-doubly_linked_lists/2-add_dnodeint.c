@@ -1,9 +1,9 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
- * add_dnodeint_end - adds a node to the end of a linked list
+ * add_dnodeint - adds a node to the beginning of a linked list
  * @head: double pointer to the beginning of the linked list
- * @n: value to add to new node
+ * @n: integer
  *
  * Return: pointer to the new node, or NULL on failure
  */
@@ -24,9 +24,9 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	if (*head == NULL)
 	{
 		(*head)->prev = new;
+		*head = new;
 	}
 
 	*head = new;
-
 	return (new);
 }
